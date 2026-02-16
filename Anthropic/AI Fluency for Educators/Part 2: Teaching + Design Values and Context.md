@@ -351,3 +351,325 @@ If you want, tell me which deliverables you’d like at the end:
 **Option C:** A full “playbook” (5–8 pages) with templates, checklists, and sample language for SME alignment
 
 Just answer the interview questions (or even only 1–6 to start), and I’ll shape this into polished, reusable documents with your tone and your real-world constraints.
+
+---
+
+# Refined Prompt (Answers to the Question posed by Copilot in the First turn)
+This is great context — thank you. Based on what you shared, I’m going to do **three concrete things right now (no deferral)**:
+
+1.  **Refactor the two reusable approach summaries** so they actually reflect *your real operating environment* (CPE-driven webinars, short timelines, SME slide-dependency, internal public accounting context).
+2.  **Introduce a third, very practical “CPE‑constrained Agile” variant** that acknowledges the reality of 1–2 week turnarounds and Zoom-first delivery.
+3.  **Give you clean, reusable artifacts** you can (a) share with SMEs/stakeholders and (b) feed directly into other AI systems.
+
+I’ll also call out where your instincts are already *very mature* (especially around architecture, narrative coherence, and alignment), because that’s central to how these summaries should position you.
+
+***
+
+# PART 1 — Your Design Identity (Explicitly Stated)
+
+Before the frameworks, this matters for shared understanding:
+
+> **You are not a facilitator-first educator. You are an instructional architect.**  
+> Your value is in structuring learning experiences that are coherent, aligned, defensible for CPE, and repeatable under tight constraints.
+
+This framing will help collaborators understand *why* your documents look the way they do.
+
+***
+
+# REUSABLE SUMMARY #1
+
+## “Structured Instructional Architecture”
+
+### (ADDIE + 4MAT + Gagné — Adapted for CPE & VILT/ILT)
+
+### When I use this approach
+
+This is my default approach for:
+
+*   **CPE-eligible webinars (1–2 hours)**
+*   **Recurring VILT/ILT curricula** (audit, tax new hires)
+*   **Any program that needs defensibility, alignment, and repeatability**
+*   **Multi-year offerings that evolve through iteration**
+
+This approach prioritizes **narrative coherence, objective alignment, and instructional defensibility** over novelty.
+
+***
+
+### Core principles (non‑negotiables)
+
+*   **Narrative coherence:** Content flows as a story, not a slide dump.
+*   **Objective alignment:** Every section ties back to explicit learning objectives.
+*   **Adult relevance:** Content is anchored in real client work, real decisions, real risks.
+*   **CPE defensibility:** Learning objectives, instructional time, and knowledge checks are intentional and documentable.
+*   **Separation of “must know” vs “nice to know”:** Excess content is preserved as enrichment, not forced into live time.
+
+***
+
+### The Unified Model (how the frameworks work together)
+
+Think of this as **three layers**, not three competing models.
+
+***
+
+## Layer 1 — ADDIE as the Lifecycle (Project Architecture)
+
+### Analyze (compressed, but intentional)
+
+Typical outputs (even on a 1–2 week timeline):
+
+*   Target audience + role context (e.g., audit seniors, new tax associates)
+*   Business context (why this topic matters *now*)
+*   Learning objectives written at the **appropriate cognitive level**
+*   CPE constraints (duration, interaction requirements, assessment expectations)
+
+> In practice: this may be a short design doc or even a structured email — but it always exists.
+
+***
+
+### Design (where most of your value lives)
+
+This is where **4MAT and Gagné come in**.
+
+***
+
+## Layer 2 — 4MAT as Narrative Flow (Macro Structure)
+
+You implicitly do this already; this just makes it explicit and reusable.
+
+For a **1–2 hour webinar**, the structure usually looks like:
+
+1.  **WHY (Relevance & Stakes)**
+    *   Why this topic matters to the firm, clients, regulators
+    *   Common mistakes or risks
+    *   Framing the “problem space”
+
+2.  **WHAT (Concepts & Rules)**
+    *   Standards, guidance, frameworks, rules
+    *   Mental models (how to think about the issue)
+
+3.  **HOW (Application & Practice)**
+    *   Scenario-based polling questions
+    *   Decision points (“What would you do next?”)
+    *   Mini case walkthroughs
+
+4.  **WHAT IF (Transfer & Judgment)**
+    *   Variations, edge cases, professional judgment
+    *   “If this changes, how does your approach change?”
+
+> This structure supports both **CPE requirements** and **adult learning**, even when interactivity is limited.
+
+***
+
+## Layer 3 — Gagné as a Quality Checklist (Micro Structure)
+
+You don’t rigidly “run Gagné”; you **audit your design against it**.
+
+For each major section, you ensure:
+
+*   Attention is gained (story, risk, real example)
+*   Objectives are clear (explicit or implicit)
+*   Prior knowledge is activated (polls, rhetorical questions)
+*   Content is presented clearly
+*   Guidance is provided (examples, worked reasoning)
+*   Performance is elicited (polls, scenarios)
+*   Feedback is provided (why an answer is right/wrong)
+*   Retention & transfer are reinforced (summary, takeaway, job aid)
+
+***
+
+### Develop (Slides + Supporting Materials)
+
+*   Slides are **instructional artifacts**, not scripts
+*   Polls are written as **decision checks**, not trivia
+*   SME “extra content” is moved to:
+    *   Appendix slides
+    *   Participant handouts
+    *   Optional enrichment resources
+
+***
+
+### Implement
+
+*   Delivery may be facilitated by SMEs, but the **instructional spine is yours**
+*   For recurring programs, you maintain:
+    *   Version history
+    *   Rationale for changes
+    *   Consistent narrative across years
+
+***
+
+### Evaluate (Reality-Aware)
+
+Current state:
+
+*   Level 1 (smile sheets)
+*   Level 2 (knowledge checks)
+*   60‑day knowledge transfer pulse
+
+Emerging direction:
+
+*   Establish business baselines where feasible
+*   Track deltas over time (even if imperfect)
+*   Design with future xAPI readiness in mind
+
+***
+
+# REUSABLE SUMMARY #2
+
+## “Agile Instructional Design”
+
+### (SAM + MVI — Reality‑Checked for Your Environment)
+
+This is **not startup agile**. This is **professional-services agile under CPE constraints**.
+
+***
+
+### When I use this approach
+
+*   **1–2 week timelines**
+*   Rapid-response webinars
+*   Volatile content (standards updates, regulatory changes)
+*   Limited SME availability
+*   Situations where “perfect” is not possible, but **coherent and aligned** still is
+
+***
+
+### Agile principles (adapted)
+
+*   **Time to first viable release matters**
+*   **Prototype thinking even when deliverables are slides**
+*   **Small, validated improvements beat big, late rewrites**
+*   **Minimum Viable Instruction (MVI) is a scope decision, not a quality compromise**
+
+***
+
+## SAM in Practice (What It Actually Looks Like)
+
+### Step 1 — Savvy Start (Often 30–60 minutes)
+
+Outputs:
+
+*   Finalized learning objectives
+*   Agreed‑upon narrative arc
+*   Decision on *what will be interactive*
+*   Agreement on what will be deferred to appendix/enrichment
+
+This may happen via:
+
+*   A short working session
+*   A structured intake document
+*   A marked-up outline
+
+***
+
+### Step 2 — Prototype (Yes, Even for Slides)
+
+Your “prototype” might be:
+
+*   A single representative section
+*   One scenario-based polling question with feedback
+*   A draft agenda with timing
+
+The goal:
+
+*   Validate **level**, **tone**, and **expectations** early
+
+***
+
+### Step 3 — Build MVI (Minimum Viable Instruction)
+
+In your context, **MVI usually means**:
+
+*   The minimum content required to meet objectives and CPE requirements
+*   A coherent narrative arc
+*   At least some meaningful learner decision-making
+*   Clear takeaways for on-the-job application
+
+MVI does **not** mean:
+
+*   No design
+*   No practice
+*   No standards
+
+It means **intentional constraint**.
+
+***
+
+### Step 4 — Iterate (Within the Same Delivery or Next One)
+
+Iteration may happen:
+
+*   Between alpha → beta → gold
+*   Between sessions of the same webinar
+*   Year-over-year for recurring curricula
+
+***
+
+## What Agile Looks Like *Here* (Truthfully)
+
+> “Agile” often means: *How fast can SMEs give me slides?*
+
+Your value-add is:
+
+*   Turning SME content into **instruction**
+*   Preserving narrative and alignment under pressure
+*   Making small, high-leverage improvements (better polls, clearer flow, sharper examples)
+
+***
+
+# REUSABLE SUMMARY #3
+
+## “CPE‑Constrained Agile (Practical Hybrid)”
+
+This is the one that will probably resonate most with your stakeholders.
+
+### Key idea
+
+> We work iteratively **within fixed delivery constraints**, not around them.
+
+### Design moves you already make (now formalized):
+
+*   Lock objectives early
+*   Agree on narrative spine before slides exist
+*   Design polling questions *before* content is finalized
+*   Use appendices to manage scope creep
+*   Improve interactivity incrementally without risking CPE compliance
+
+***
+
+# YOUR “AI FEED” VERSION (Tuned to You)
+
+You can copy/paste this verbatim:
+
+```text
+I am an instructional designer working primarily in a public accounting, CPE-driven environment. I design learning as an instructional architect, prioritizing narrative coherence and alignment to learning objectives. Most offerings are 1–2 hour webinars delivered via Zoom, supported by polling questions as knowledge checks, with occasional self-paced eLearning and recurring VILT/ILT curricula.
+
+I use ADDIE as a lifecycle framework, with 4MAT to structure the learner experience (Why/What/How/What-if) and Gagné’s events as a quality checklist to ensure attention, practice, feedback, and transfer. Excess SME content is preserved as enrichment rather than forced into live instructional time.
+
+For rapid timelines, I apply an agile/SAM-informed approach, focusing on Minimum Viable Instruction (MVI): the smallest coherent, defensible learning experience that meets objectives and CPE requirements. MVI in my context is primarily driven by time to first release, without sacrificing narrative or alignment.
+
+I prefer producing design documents, blueprints, and workflows, and I use alpha/beta/gold review cycles. Measurement is currently focused on knowledge, with growing emphasis on business outcomes as the learning ecosystem matures.
+```
+
+***
+
+## Where you’re already ahead (and should own it)
+
+*   Your **architectural mindset** is a strength, not a limitation.
+*   Your handling of SME content creep is **textbook professional**.
+*   Your discomfort with facilitation actually reinforces your identity as a designer, not a presenter.
+*   Your instinct to push beyond Kirkpatrick Level 2 is exactly right — even if the ecosystem isn’t ready *yet*.
+
+***
+
+### If you want to go further (optional next steps)
+
+I can:
+
+*   Turn these into **1‑page PDFs** for stakeholders
+*   Create a **“Webinar Design Playbook”** specifically for CPE environments
+*   Help you design a **lightweight scenario library** that doesn’t threaten CPE credit
+*   Draft language you can use with leadership to justify **MVI without fear**
+
+If you want, tell me which of those would be most useful — or if you want these rewritten to sound more formal, more conversational, or more “enterprise-polished.”
+
