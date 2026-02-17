@@ -79,4 +79,4 @@
   * `AUGMENTATION:` AI and humans collaborate as thought partners to augment, refine, or enhance the work the human is doing. 
   * `AGENCY:` Humans configure AI to execute complex step-by-step tasks on their behalf (re: agentic AI).
 
-    
+### The 4D Framework applies to these three modes of interaction so that our use of AI remains EFFECTIVE, EFFICIENT, ETHICAL, and SAFE.    
