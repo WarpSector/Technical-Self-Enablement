@@ -30,3 +30,35 @@
   * I will take responsibility for what ends up in front of the learners and stakeholders.
   * I'm not outsourcing the decisions, I am the ultimate validator.
   * Document key decisions for responsible AI collaboration.
+
+### Applying AI Fluency to Mapping a Learning Journey
+#### Delegation
+  * Need to decide what work can be augmented with AI.
+#### Description
+  * Explain in detail what the AI must do, what I'd like to see, provide clear background and context, and ask how the AI formulated the response (re: CoT or Step-by-Step analysis).
+#### Discernment
+  * Evaluate the response, discern problems and identify unexpected variables in the response.
+  * Iterate on the prompt engineering.
+#### Diligence
+  * Remember, this is the part where YOU apply QA, responsibility, and transparency.
+
+### SECRET WEAPON: You can ask the AI to switch roles!
+  * Ask the AI to take on the role of a learner.
+  * Ask it to react to the learning pathway at different points along the way.
+  * Ask it if it gets confused at any point and what would help it not get confused at that specific point.
+  * Ask it what additional context or background it needs at each stage of the learning path.
+  * Ask it what support it needs for transitioning between topics.
+  * This is like having a student focus group at any time.
+
+### Applying AI Fluency to Learning Objectives
+#### Overview
+  * After idenfitying core concepts (and applying 4-MAT), mapping the learning path, you can ask the AI to help you write meaningful, measurable learning objectives.
+  * You can map objectives to specific skills the learner will develop.
+
+### Conculsion
+#### Collaborating with AI will:
+  * Surface hidden assumptions and blindspots in your own thinking.
+  * Discover creative connections between concepts that may otherwise have been missed.
+  * Maintain coherence while exploring new ideas.
+  * Build personal competencies that get stronger with practice.
+
