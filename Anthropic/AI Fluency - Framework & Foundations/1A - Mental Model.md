@@ -1,5 +1,5 @@
 # The AI Fluency Framework (4 D's)
-### The AI Fluency (4D) Framework is designed to ensure we approach AI as a collaborative partner and not just a tool.
+### AI Fluency is the ability to work with AI effectively, efficiently, ethically, and safely. We approach AI as a collaborative partner and not just a tool. This is achieved by applying the 4D Framework.
 #### The 4D Framework consists of four (4) interconnected competency areas where we apply skills, knowledge, insights, and values to ensure our interactions with AI are EFFECTIVE, EFFICIENT, ETHICAL, and SAFE.
   * `EFFECTIVE` so our work with the AI heightens and augments what we already do.
   * `EFFICIENT` so it makes us better and much more streamlined at what we already do.
