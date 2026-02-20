@@ -20,7 +20,7 @@
   * I need to know the specific needs and the goal to delegate tasks effectively.
 #### Description
   * **Invite** the AI into the conversation.
-  * Use the [6 prompting techniques](../Anthropic/AI%20Fluency%20-%20Framework%20&%20Foundations/6_Effective_Prompting_Techniques.pdf)
+  * Use the [6 prompting techniques](../AI%20Fluency%20-%20Framework%20&%20Foundations/6_Effective_Prompting_Techniques.pdf)
   * Ex: **Prompt:** I'm building an AI Fluency course for fellow IDs and L&D professionals who need AI fluency, but may be new to AI and anxious about integrating it into their workflows and design processes. Help me think through how identifying concepts that will address these concerns while building confidence.
 #### Discernment
   * As the AI generates ideas, this is where I evaluate the product, process, and performance of the AI against my own ID and domain expertise.
