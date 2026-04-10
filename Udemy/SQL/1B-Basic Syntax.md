@@ -33,3 +33,8 @@
 
 ## Common Comparison Operators used in SQL Syntax
 <img width="1783" height="1006" alt="image" src="https://github.com/user-attachments/assets/7396bb84-7911-4e46-83e4-e51844011e1d" />
+
+## Logical Operators (that allow you to combine Comparison Operators in the SQL Syntax)
+* **`AND`** (re: Condition 1 has to be TRUE **AND** Condition 2 has to be TRUE)
+* **`OR`** (re: Condition 1 is TRUE **OR** Condition 2 is TRUE)
+* **`NOT`** (re: means the **opposite** of whatever Condition you're specifying)
