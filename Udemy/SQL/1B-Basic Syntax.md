@@ -30,3 +30,6 @@
 * **Example syntax:** **`SELECT`** column1_name, column2_name **`FROM`** table_name **`WHERE`** (whatever conditions you apply);
 * The **`WHERE`** statement appears immediately after the **`FROM`** statement.
 * Conditions are used to filter the rows retrieved by the **`SELECT`** statement (re: you **`SELECT`** the target column or columns **`FROM`** a specified table **`WHERE`** you apply the conditions you want - these conditions act on the rows).
+
+## Common Comparison Operators used in SQL Syntax
+<img width="1783" height="1006" alt="image" src="https://github.com/user-attachments/assets/7396bb84-7911-4e46-83e4-e51844011e1d" />
