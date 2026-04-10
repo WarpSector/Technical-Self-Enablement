@@ -21,3 +21,5 @@
 * **`COUNT`** returns the number of input rows when matched to a specific query.
 * **`COUNT`** can be applied on a specific column, or you can use * - either way, this will return the same result.
 * **Example syntax:** **`SELECT`** **`COUNT`**(column_name), **`FROM`** table_name;
+* **Example syntax:** **`SELECT`** **`COUNT`**(choice) **`FROM`** table_name;
+* **Example syntax:** **`SELECT`** **`COUNT`**(*) **`FROM`** table_name;
