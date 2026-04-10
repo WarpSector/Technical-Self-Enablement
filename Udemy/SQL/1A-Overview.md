@@ -35,3 +35,7 @@
 * MS Access
 * Google's BigQuery
 * Hive/Hadoop
+
+## What we need to Query DBs
+* **`PostgreSQL`**: The SQL engine that stores data + read queries + returns information.
+* **`PgAdmin`**: Graphical User Interface (GUI) for connecting with PostgreSQL.
