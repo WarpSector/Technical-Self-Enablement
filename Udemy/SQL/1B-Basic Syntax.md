@@ -38,3 +38,8 @@
 * **`AND`** (re: Condition 1 has to be TRUE **AND** Condition 2 has to be TRUE)
 * **`OR`** (re: Condition 1 is TRUE **OR** Condition 2 is TRUE)
 * **`NOT`** (re: means the **opposite** of whatever Condition you're specifying)
+
+## ORDER BY
+* **`ORDER BY`** syntax is used to sort rows based on a value in the column either in ascending (ASC) or descending (DESC) order.
+* **Example syntax:** **`SELECT`** column1_name, column2_name **`FROM`** table_name **`ORDER BY`** column1_name ASC/DESC
+* **`ORDER BY`** is always at the end of the statement since we want to do our selections and sorting first - moving the **`ORDER BY`** statement higher in the syntax will return an error.
