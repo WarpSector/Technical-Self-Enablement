@@ -43,3 +43,4 @@
 * **`ORDER BY`** syntax is used to sort rows based on a value in the column either in ascending (ASC) or descending (DESC) order.
 * **Example syntax:** **`SELECT`** column1_name, column2_name **`FROM`** table_name **`ORDER BY`** column1_name ASC/DESC
 * **`ORDER BY`** is always at the end of the statement since we want to do our selections and sorting first - moving the **`ORDER BY`** statement higher in the syntax will return an error.
+* Use **`ASC`** and **`DESC`** to sort in ascending or descending order - if left blank, **`ASC`** is the default.
