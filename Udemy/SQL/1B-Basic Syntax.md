@@ -44,3 +44,8 @@
 * **Example syntax:** **`SELECT`** column1_name, column2_name **`FROM`** table_name **`ORDER BY`** column1_name ASC/DESC
 * **`ORDER BY`** is always at the end of the statement since we want to do our selections and sorting first - moving the **`ORDER BY`** statement higher in the syntax will return an error.
 * Use **`ASC`** and **`DESC`** to sort in ascending or descending order - if left blank, **`ASC`** is the default.
+
+## LIMIT
+* **`LIMIT`** allows you to limit the number of rows returned for a query.
+* **`LIMIT`** is useful for not wanting every single row in a table returned, but only the top few rows or so giving you an idea of the layout.
+* **`LIMIT`** becomes useful when used in combination with ORDER BY.
