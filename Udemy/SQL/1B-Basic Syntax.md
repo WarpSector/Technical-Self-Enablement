@@ -23,3 +23,10 @@
 * **Example syntax:** **`SELECT`** **`COUNT`**(column_name), **`FROM`** table_name;
 * **Example syntax:** **`SELECT`** **`COUNT`**(choice) **`FROM`** table_name;
 * **Example syntax:** **`SELECT`** **`COUNT`**(*) **`FROM`** table_name;
+
+## SELECT WHERE
+* **`WHERE`** statements allows you to specify conditions on columns and for the rows that are returned.
+* Along with **`SELECT`**, **`WHERE`** statements are the most fundamental SQL syntax statements you will use.
+* **Example syntax:** **`SELECT`** column1_name, column2_name **`FROM`** table_name **`WHERE`** (whatever conditions you apply);
+* The **`WHERE`** statement appears immediately after the **`FROM`** statement.
+* Conditions are used to filter the rows retrieved by the **`SELECT`** statement (re: you **`SELECT`** the target column or columns **`FROM`** a specified table **`WHERE`** you apply the conditions you want - these conditions act on the rows).
