@@ -25,7 +25,13 @@
 ## Various SQL Options
 <img width="1678" height="894" alt="image" src="https://github.com/user-attachments/assets/8f18cda8-4043-4bc7-82d1-2efdd014a1dc" />
 
-
-
-
 ## How SQL can be applied to other Software Programs
+### SQL can be used with a wide variety of applications, software, and solutions:
+* Amazon Redshift
+* MySQL
+* PostGreSQL
+* MemSQL
+* Oracle DBs
+* MS Access
+* Google's BigQuery
+* Hive/Hadoop
