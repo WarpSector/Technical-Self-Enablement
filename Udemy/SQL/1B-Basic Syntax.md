@@ -14,8 +14,8 @@
 * **`DISTINCT`** is a statement that retrieves unique and distinct values (if you have a table that contains duplicate values, you may need to use this statement to find the unique value).
 * **`DISTINCT`** retrieves only the distinct values in the column.
 * **`DISTINCT`** operates only on columns, not rows.
-* **Example syntax:** **`SELECT`** **`DISTINCT`** column_name, **`FROM`** table_name;
-* You may also need to add parenthesis for clarity when conducting complex queries - example: **`SELECT`** **`DISTINCT`** (column_name), **`FROM`** (table_name);
+* **Example syntax:** **`SELECT`** **`DISTINCT`** column_name **`FROM`** table_name;
+* You may also need to add parenthesis for clarity when conducting complex queries - example: **`SELECT`** **`DISTINCT`** (column_name) **`FROM`** (table_name);
 
 ## COUNT
 * **`COUNT`** returns the number of input rows when matched to a specific query.
