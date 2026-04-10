@@ -48,4 +48,4 @@
 ## LIMIT
 * **`LIMIT`** allows you to limit the number of rows returned for a query.
 * **`LIMIT`** is useful for not wanting every single row in a table returned, but only the top few rows or so giving you an idea of the layout.
-* **`LIMIT`** becomes useful when used in combination with ORDER BY.
+* **`LIMIT`** becomes useful when used in combination with **`ORDER BY`**.
