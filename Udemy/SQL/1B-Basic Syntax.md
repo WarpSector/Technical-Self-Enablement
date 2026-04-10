@@ -15,3 +15,4 @@
 * **`DISTINCT`** retrieves only the distinct values in the column.
 * **`DISTINCT`** operates only on columns, not rows.
 * **Example syntax:** **`SELECT`** **`DISTINCT`** column_name, **`FROM`** table_name;
+* You may also need to add parenthesis for clarity when conducting complex queries - example: **`SELECT`** **`DISTINCT`** (column_name), **`FROM`** (table_name);
