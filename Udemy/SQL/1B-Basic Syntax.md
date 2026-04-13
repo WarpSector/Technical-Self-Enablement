@@ -58,3 +58,4 @@
 * **`BETWEEN`** can also be used for dates using YYYY-MM-DD (re: date **`BETWEEN`** '2007-01-01' AND '2007-02-01').
 * When using **`BETWEEN`** for dates that also include timestamps, pay attention to how you are using the **`BETWEEN`** operator since the timestamps start at 00:00.
   * For example, if you want dates between '2007-01-01' and '2007-02-01', the **`BETWEEN`** will give you all the dates up to '2027-02-01 00:00 hrs.'. If you wanted the actual timestamps for 2007-02-01, you need to set the **`BETWEEN`** operator for '2007-01-01 and '2007-02-02' so it gives you all the timestamps for 2007-02-01 starting 00:00 through 23:59 hrs.
+* Example syntax: **`SELECT`** * **`FROM`** table_name **`WHERE`** column1_name **`BETWEEN`** low value **`AND`** high value;
