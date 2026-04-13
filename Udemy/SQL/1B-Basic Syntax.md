@@ -74,4 +74,8 @@
 * Use _ (underscore) to match any single character.
 * Example syntax: **`WHERE`** name **`LIKE`** 'A%' (returns all names that begin with 'A' with any sequence of characters after 'A').
 * Example syntax: **`WHERE`** name **`LIKE`** '%a' (returns all names that end with 'a' with any sequence of characters before 'a').
-* **NOTE:** **`LIKE`** is case-sensitive, while **`ILIKE`** is not case-sensitive. 
+* **NOTE:** **`LIKE`** is case-sensitive, while **`ILIKE`** is not case-sensitive.
+* Using the underscore allows you to replace just a single character.
+* For example, if we want to check the database to retrieve all Mission Impossible films, our syntax could be something like: **`WHERE`** title **`LIKE`** 'Mission Impossible _'. This provides all film titles staring with "Mission Impossible" and whatever single character that comes after.
+* You can also use multiple underscores. So in our previous example, we could also use: **`WHERE`** title **`LIKE`** 'Mission Impossible Version#__', to find all titles with 2 different characters at the end such as "Version 01", "Version 02", etc.
+* You can also combine operators for more complex pattern matching using % and _ together (re: WHERE name LIKE '_her%').
