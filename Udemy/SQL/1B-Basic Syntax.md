@@ -64,3 +64,14 @@
 * **`IN`** is used for checking multiple possible values in a data table (ex: if a user's name shows up IN a list of known names).
 * Example syntax: value **`IN`** (option1, option2,...,option_n)
 * **`NOT IN`** can also be used to check for multiple possible values excluded from a data set.
+
+## LIKE and ILIKE
+* We can perform direct comparisons against strings, such as: **`WHERE`** first_name = 'John'.
+* We can do more than that with **`LIKE`** and **`ILIKE`** operators.
+* If we want to match against a general pattern in a string (such as all emails ending with @gmail.com or all names that begin with 'A'), we can use **`LIKE`** and **`ILIKE`**.
+* **`LIKE`** allows us to use wildcard characters to perform pattern matching in the data.
+* Use % to match any sequence of characters in the string.
+* Use _ (underscore) to match any single character.
+* Example syntax: **`WHERE`** name **`LIKE`** 'A%' (returns all names that begin with 'A' with any sequence of characters after 'A').
+* Example syntax: **`WHERE`** name **`LIKE`** '%a' (returns all names that end with 'a' with any sequence of characters before 'a').
+* **NOTE:** **`LIKE`** is case-sensitive, while **`ILIKE`** is not case-sensitive. 
