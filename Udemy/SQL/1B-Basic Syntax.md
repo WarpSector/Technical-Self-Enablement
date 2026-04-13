@@ -49,3 +49,10 @@
 * **`LIMIT`** allows you to limit the number of rows returned for a query.
 * **`LIMIT`** is useful for not wanting every single row in a table returned, but only the top few rows or so giving you an idea of the layout.
 * **`LIMIT`** becomes useful when used in combination with **`ORDER BY`**.
+
+## BETWEEN
+* **`BETWEEN`** is used to match/find a value(s) between a range of values.
+* **`BETWEEN`** finds values between the lowest and highest values within a range - you set the lowest and highest values to define the range (re: value >= low AND <= high. In other words, a value BETWEEN a low value AND a high value, re: BETWEEN 3 (low value) AND 9 (high value) will return all values greater than and equal to 3 + values less than and equal to 9).
+* **`BETWEEN`** is used in conjunction with **`WHERE`**.
+* You can also combine **`BETWEEN`** with the NOT logical operator and ask to match/find a value NOT in between a low value and a high value (re: value < low OR value > high; value NOT BETWEEN low AND high; re: value NOT BETWEEN 3 (low value) and 9 (high value) will return all values NOT BETWEEN 3 and 9)).
+* **`BETWEEN`** can also be used for dates using YYYY-MM-DD.
