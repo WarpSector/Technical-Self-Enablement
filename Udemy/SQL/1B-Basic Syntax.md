@@ -56,3 +56,5 @@
 * **`BETWEEN`** is used in conjunction with **`WHERE`**.
 * You can also combine **`BETWEEN`** with the NOT logical operator and ask to match/find a value NOT in between a low value and a high value (re: value < low OR value > high; value NOT BETWEEN low AND high; re: value NOT BETWEEN 3 (low value) and 9 (high value) will return all values NOT BETWEEN 3 and 9)).
 * **`BETWEEN`** can also be used for dates using YYYY-MM-DD (re: date **`BETWEEN`** '2007-01-01' AND '2007-02-01').
+* When using **`BETWEEN`** for dates that also include timestamps, pay attention to how you are using the **`BETWEEN`** operator since the timestamps start at 00:00.
+  * For example, if you want dates between '2007-01-01' and '2007-02-01', the **`BETWEEN`** will give you all the dates up to '2027-02-01 00:00 hrs.'. If you wanted the actual timestamps for 2007-02-01, you need to set the **`BETWEEN`** operator for '2007-01-01 and '2007-02-02' so it gives you all the timestamps for 2007-02-01 starting 00:00 through 23:59 hrs.
