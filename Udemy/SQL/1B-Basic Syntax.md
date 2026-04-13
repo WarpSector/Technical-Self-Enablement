@@ -59,3 +59,8 @@
 * When using **`BETWEEN`** for dates that also include timestamps, pay attention to how you are using the **`BETWEEN`** operator since the timestamps start at 00:00.
   * For example, if you want dates between '2007-01-01' and '2007-02-01', the **`BETWEEN`** will give you all the dates up to '2027-02-01 00:00 hrs.'. If you wanted the actual timestamps for 2007-02-01, you need to set the **`BETWEEN`** operator for '2007-01-01 and '2007-02-02' so it gives you all the timestamps for 2007-02-01 starting 00:00 through 23:59 hrs.
 * Example syntax: **`SELECT`** * **`FROM`** table_name **`WHERE`** column1_name **`BETWEEN`** low value **`AND`** high value;
+
+## IN
+* **`IN`** is used for checking multiple possible values in a data table (ex: if a user's name shows up IN a list of known names).
+* Example syntax: value **`IN`** (option1, option2,...,option_n)
+* **`NOT IN`** can also be used to check for multiple possible values excluded from a data set.
