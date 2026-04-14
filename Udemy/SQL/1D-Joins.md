@@ -32,3 +32,8 @@
   * **`FULL OUTER JOIN`** (the simplest)
   * **`LEFT OUTER JOIN`**
   * **`RIGHT OUTER JOIN`**
+
+### FULL OUTER JOIN
+* Example syntax: **`SELECT`** * **`FROM`** Table_A **`FULL OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match; (this basically grabs everything from both tables).
+* Like **`INNER JOINS`**, **`FULL OUTER JOINS`** are symmetrical and the order of the tables don't matter.
+* Empty rows in **`FULL OUTER JOINS`** will be populated with **`null`**.
