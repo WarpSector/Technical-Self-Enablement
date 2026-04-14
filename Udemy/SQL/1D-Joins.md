@@ -23,3 +23,5 @@
 * An **`INNER JOIN`** will result with a set of records that match in different tables.
 * Example syntax: **`SELECT`** * **`FROM`** Table_A **`INNER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match; (This basically says "grab Table A and Table B and only show the overlapping results between both tables").
 * Switching the order of tables on an **`INNER JOIN`** will produce the same result, so the order of the tables does not matter.
+
+## OUTER JOIN
