@@ -37,3 +37,5 @@
 
 ### In the SELECT statement, columns must either have an aggregate function OR both the SELECT column and GROUP BY columns must match:
 <img width="2125" height="519" alt="image" src="https://github.com/user-attachments/assets/227cd39c-be78-4fe1-89e2-9457c027ab11" />
+<img width="2158" height="490" alt="image" src="https://github.com/user-attachments/assets/627f5b0c-2d90-485e-81e6-f351312f9c03" />
+
