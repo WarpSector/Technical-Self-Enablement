@@ -1,5 +1,5 @@
 # Aggregate Functions
-## Group By & Having Operators
+## "Group By" & "Having" Operators
 
 ## Aggregate Functions
 * SQL provides aggregate functions where you can take multiple inputs and return a single output.
@@ -13,3 +13,7 @@
 * Example syntax: **`SELECT`** **`MIN`**(column1_name) **`FROM`** table_name;
 * **`AVG`** returns a floating point value with lots of significant digits, use the ROUND operator to define the number of significant digits you want; example syntax: **`SELECT`** **`ROUND`**(**`AVG`**(column1_name), # of sig figs) **`FROM`** table_name;
 * Example syntax: **`SELECT`** **`SUM`**(column1_name) **`FROM`** table_name;
+
+
+## GROUP BY
+
