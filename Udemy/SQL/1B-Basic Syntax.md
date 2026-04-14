@@ -32,7 +32,7 @@
 * Conditions are used to filter the rows retrieved by the **`SELECT`** statement (re: you **`SELECT`** the target column or columns **`FROM`** a specified table **`WHERE`** you apply the conditions you want - these conditions act on the rows).
 
 ## Common Comparison Operators used in SQL Syntax
-<img width="1783" height="1006" alt="image" src="https://github.com/user-attachments/assets/7396bb84-7911-4e46-83e4-e51844011e1d" />
+<div align="center"><img width="80%" height="80%" alt="image" src="https://github.com/user-attachments/assets/7396bb84-7911-4e46-83e4-e51844011e1d" /></div>
 
 ## Logical Operators (that allow you to combine Comparison Operators in the SQL Syntax)
 * **`AND`** (re: Condition 1 has to be TRUE **AND** Condition 2 has to be TRUE)
