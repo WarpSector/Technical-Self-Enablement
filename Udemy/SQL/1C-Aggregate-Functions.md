@@ -37,12 +37,12 @@
 
 ### Matching the SELECT and GROUP BY statements:
 #### In the SELECT statement, columns must either have an aggregate function OR both the SELECT column and GROUP BY columns must match:
-<img width="2125" height="519" alt="image" src="https://github.com/user-attachments/assets/227cd39c-be78-4fe1-89e2-9457c027ab11" />
-<img width="2158" height="490" alt="image" src="https://github.com/user-attachments/assets/627f5b0c-2d90-485e-81e6-f351312f9c03" />
+<div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/227cd39c-be78-4fe1-89e2-9457c027ab11" /></div>
+<div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/627f5b0c-2d90-485e-81e6-f351312f9c03" /></div>
 
 ## HAVING
 * Recall we can filter BEFORE executing a **`GROUP BY`** statement, but if we want to filter on an aggregate function (**`AVG`**, **`SUM`**, **`MAX`**, **`MIN`**), we can use the **`HAVING`** clause.
 * We cannot use **`WHERE`** to filter on aggregated results since those are executed after the **`WHERE`** statement is executed.
 * **`HAVING`** allows you to filter after an aggregation function has occurred.
 
-<img width="1735" height="765" alt="image" src="https://github.com/user-attachments/assets/d9b78b3d-fa6d-4c5b-922a-515af7ed2cde" />
+<div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/d9b78b3d-fa6d-4c5b-922a-515af7ed2cde" /></div>
