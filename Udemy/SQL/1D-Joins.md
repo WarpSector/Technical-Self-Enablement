@@ -36,7 +36,7 @@
 ### FULL OUTER JOIN
 * Example syntax: **`SELECT`** * **`FROM`** Table_A **`FULL OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match; (this basically grabs everything from both tables).
 <br><br/>
-<img width="1059" height="678" alt="image" src="https://github.com/user-attachments/assets/2199f24a-2a21-4e60-af0b-aa191c30dae5" />
+<img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/2199f24a-2a21-4e60-af0b-aa191c30dae5" />
 <br><br/>
 
 * Like **`INNER JOINS`**, **`FULL OUTER JOINS`** are symmetrical and the order of the tables don't matter.
