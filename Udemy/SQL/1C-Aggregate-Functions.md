@@ -29,3 +29,11 @@
 ### Example of how GROUP BY aggregates the COUNT of a Category:
 <img width="2623" height="1411" alt="image" src="https://github.com/user-attachments/assets/09b6d299-082c-4e5b-bae4-698ff55805c4" />
 
+* **`GROUP BY`** allows you to aggregate columns per some category.
+* We first choose a categorical column to **`GROUP BY`**.
+* Categorical columns are *non-continuous* (meaning values in the column may not be in order or related and even then, the **`GROUP BY`** function will aggregate them together and return an aggregate value).
+* Example syntax: **`SELECT`** category_column, *`AGGREGATE FUNCTION`*(data_column) **`FROM`** table_name GROUP BY category_column;
+* **`GROUP BY`** must appear right after a **`FROM`** or **`WHERE`** statement (where you can insert a **`WHERE`** statement before the **`GROUP BY`** clause).
+
+### The **`SELECT`** and **`GROUP BY`** statements must match:
+<img width="2125" height="519" alt="image" src="https://github.com/user-attachments/assets/227cd39c-be78-4fe1-89e2-9457c027ab11" />
