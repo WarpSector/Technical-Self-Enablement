@@ -19,6 +19,12 @@
 * **`GROUP`** BY allows you to aggregate columns per some category.
 * We first choose a categorical column to **`GROUP BY`**.
 * Categorical columns are non-continuous (meaning values in the column may not be in order or related and even then, the **`GROUP BY`** function will aggregate them together and return an aggregate value).
+* * **`GROUP BY`** allows you to aggregate columns per some category.
+* We first choose a categorical column to **`GROUP BY`**.
+* Categorical columns are *non-continuous* (meaning values in the column may not be in order or related and even then, the **`GROUP BY`** function will aggregate them together and return an aggregate value).
+* Example syntax: **`SELECT`** category_column, *`AGGREGATE FUNCTION`*(data_column) **`FROM`** table_name GROUP BY category_column;
+* **`GROUP BY`** must appear right after a **`FROM`** or **`WHERE`** statement (where you can insert a **`WHERE`** statement before the **`GROUP BY`** clause).
+* **`WHERE`** statements should not refer to the aggregation results.
 
 ### Example of how GROUP BY aggregates the SUM of a Category:
 <img width="2628" height="1419" alt="image" src="https://github.com/user-attachments/assets/13bc9d24-063b-4425-8663-967d8221fde6" />
@@ -29,14 +35,8 @@
 ### Example of how GROUP BY aggregates the COUNT of a Category:
 <img width="2623" height="1411" alt="image" src="https://github.com/user-attachments/assets/09b6d299-082c-4e5b-bae4-698ff55805c4" />
 
-* **`GROUP BY`** allows you to aggregate columns per some category.
-* We first choose a categorical column to **`GROUP BY`**.
-* Categorical columns are *non-continuous* (meaning values in the column may not be in order or related and even then, the **`GROUP BY`** function will aggregate them together and return an aggregate value).
-* Example syntax: **`SELECT`** category_column, *`AGGREGATE FUNCTION`*(data_column) **`FROM`** table_name GROUP BY category_column;
-* **`GROUP BY`** must appear right after a **`FROM`** or **`WHERE`** statement (where you can insert a **`WHERE`** statement before the **`GROUP BY`** clause).
-* **`WHERE`** statements should not refer to the aggregation results.
-
-### In the SELECT statement, columns must either have an aggregate function OR both the SELECT column and GROUP BY columns must match:
+### Matching the SELECT and GROUP BY statements:
+#### In the SELECT statement, columns must either have an aggregate function OR both the SELECT column and GROUP BY columns must match:
 <img width="2125" height="519" alt="image" src="https://github.com/user-attachments/assets/227cd39c-be78-4fe1-89e2-9457c027ab11" />
 <img width="2158" height="490" alt="image" src="https://github.com/user-attachments/assets/627f5b0c-2d90-485e-81e6-f351312f9c03" />
 
