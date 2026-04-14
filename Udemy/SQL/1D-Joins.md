@@ -22,6 +22,11 @@
 * **`INNER JOINS`** are the simplest JOIN functions to orchestrate.
 * An **`INNER JOIN`** will result with a set of records that match in different tables.
 * Example syntax: **`SELECT`** * **`FROM`** Table_A **`INNER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match; (This basically says "grab Table A and Table B and only show the overlapping results between both tables").
+<br><br/>
+<div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/b3775b68-2df6-4eaf-bad0-42d6b0bfce58" /></div>
+<br><br/>
+
+  
 * Switching the order of tables on an **`INNER JOIN`** will produce the same result, so the order of the tables does not matter.
 * When running an **`INNER JOIN`** with duplicate columns, you can specify returning just one column by specifying the name of the column in the **`SELECT`** line (For example, if columns A and C both have overlapping data and you don't need both columns displayed in the **`INNER JOIN`**, just specify the name of one column in **`SELECT`** so the result will show only one column).
 * If you just use **`JOIN`** without typing "INNER JOIN", PostgreSQL will treat it as an **`INNER JOIN`** by default.
