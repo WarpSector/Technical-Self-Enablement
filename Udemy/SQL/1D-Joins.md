@@ -46,3 +46,13 @@
 
 * Like **`INNER JOINS`**, **`FULL OUTER JOINS`** are symmetrical and the order of the tables don't matter.
 * Empty rows in **`FULL OUTER JOINS`** will be populated with **`null`**.
+
+### FULL OUTER JOIN with WHERE
+* Using **`WHERE`** with **`FULL OUTER JOIN`** leaves out any overlapping data between the tables being joined - you will only see results unique to each table.
+<br><br/>
+<div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/cf61400f-4210-47f2-a9de-3fac60f549d9" /></div>
+<br><br/>
+
+* Essentially, we use the same syntax for **`FULL OUTER JOIN`**: **`SELECT`** * **`FROM`** table_A **`FULL OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match
+* Except now we add the **`WHERE`** operator: **`WHERE`** Table_A.id IS null OR Table_B.id IS null
+* As usual, this is also symmetrical and the order of tables don't matter.
