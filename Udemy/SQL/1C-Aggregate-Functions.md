@@ -35,5 +35,5 @@
 * Example syntax: **`SELECT`** category_column, *`AGGREGATE FUNCTION`*(data_column) **`FROM`** table_name GROUP BY category_column;
 * **`GROUP BY`** must appear right after a **`FROM`** or **`WHERE`** statement (where you can insert a **`WHERE`** statement before the **`GROUP BY`** clause).
 
-### The **`SELECT`** and **`GROUP BY`** statements must match:
+### In the SELECT statement, columns must either have an aggregate function OR both the SELECT column and GROUP BY columns must match:
 <img width="2125" height="519" alt="image" src="https://github.com/user-attachments/assets/227cd39c-be78-4fe1-89e2-9457c027ab11" />
