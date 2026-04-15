@@ -58,8 +58,12 @@
 * As usual, this is also symmetrical and the order of tables don't matter.
 
 ### LEFT OUTER JOIN
-
-
+* **`LEFT OUTER JOINS`** results in a set of records that are in the LEFT table.
+* If there are no matches with the RIGHT table, the results returned are null.
+* The results will return everything in Table A and whatever overlaps in Table B, but will not return anything unique in Table B.
+* **`LEFT OUTER JOINS`** are not symmetrical, so the order of the tables matters (the LEFT table will be referred to first).
+* Example syntax: **`SELECT`** * **`FROM`** Table_A **`LEFT OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match;
+* Can also use **`LEFT JOIN`** instead of **`LEFT OUTER JOIN`**.
 <br><br/>
 <div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/85117373-9729-4827-9f7a-e8e969e8f819" /></div>
 <br><br/>
