@@ -67,3 +67,11 @@
 <br><br/>
 <div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/85117373-9729-4827-9f7a-e8e969e8f819" /></div>
 <br><br/>
+
+### LEFT OUTER JOIN with WHERE
+* **`LEFT OUTER JOINS`** with **`WHERE`** will return everything in Table A, but nothing overlapping with Table B and nothing in Table B (essentially, it's everything in Table A less the overlapping data with Table B).
+<br><br/>
+<div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/7b796637-0236-4dbd-b149-e662b68bea6e" /></div>
+<br><br/>
+
+* Example syntax: **`SELECT`** * **`FROM`** Table_A **`LEFT OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match **`WHERE`** Table_B.id IS null;
