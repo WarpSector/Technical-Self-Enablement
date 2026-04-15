@@ -75,3 +75,17 @@
 <br><br/>
 
 * Example syntax: **`SELECT`** * **`FROM`** Table_A **`LEFT OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match **`WHERE`** Table_B.id IS null;
+
+### RIGHT JOINS
+* **`RIGHT JOINS`** are basically **`LEFT JOINS`** but flipped in the opposite direction.
+* **`RIGHT JOINS`** are the same as switching the table order in a **`LEFT JOIN`**.
+<br><br/>
+<div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/46f9f6ed-ffd4-47b6-89c6-e15b0a745140" /></div>
+<br><br/>
+
+
+
+
+
+
+
