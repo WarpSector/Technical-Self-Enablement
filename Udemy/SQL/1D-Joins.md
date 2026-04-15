@@ -56,3 +56,10 @@
 * Essentially, we use the same syntax for **`FULL OUTER JOIN`**: **`SELECT`** * **`FROM`** table_A **`FULL OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match
 * Except now we add the **`WHERE`** operator: **`WHERE`** Table_A.id IS null OR Table_B.id IS null
 * As usual, this is also symmetrical and the order of tables don't matter.
+
+### LEFT OUTER JOIN
+
+
+<br><br/>
+<div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/85117373-9729-4827-9f7a-e8e969e8f819" /></div>
+<br><br/>
