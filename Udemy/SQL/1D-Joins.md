@@ -93,6 +93,9 @@
 
 * Example syntax: **`SELECT`** * **`FROM`** Table_A **`RIGHT OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match **`WHERE`** Table_A.id IS null;
 
-
+## UNION
+* **`UNION`** operators combine the results of two or more **`SELECT`** statements (concatenation).
+* **`UNION`** essentially pastes two results together.
+* Example syntax: **`SELECT`** column_name(s) **`FROM`** Table_A **`UNION`** **`SELECT`** column_name(s) FROM Table_B;
 
 
