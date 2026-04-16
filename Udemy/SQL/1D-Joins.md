@@ -83,8 +83,15 @@
 <div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/46f9f6ed-ffd4-47b6-89c6-e15b0a745140" /></div>
 <br><br/>
 
+* Example syntax: **`SELECT`** * **`FROM`** Table_A **`RIGHT OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match;
 
+### RIGHT OUTER JOIN with WHERE
+* You can do the same with **`WHERE`** statements returning everything in Table B except for any data overlapping with Table A.
+<br><br/>
+<div align="center"><img width="60%" height="60%" alt="image" src="https://github.com/user-attachments/assets/e89cd75e-8821-4357-97b8-9bbb8348a459" /></div>
+<br><br/>
 
+* Example syntax: **`SELECT`** * **`FROM`** Table_A **`RIGHT OUTER JOIN`** Table_B ON Table_A.col_match = Table_B.col_match **`WHERE`** Table_A.id IS null;
 
 
 
