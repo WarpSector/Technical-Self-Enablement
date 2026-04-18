@@ -21,3 +21,20 @@
   * **`SELECT TIMEOFDAY()`** to retrieve your current timestamp as a string.
   * **`SELECT CURRENT_TIME`** to retrieve your current time with time zone.
   * **`SELECT CURRENT_DATE`** to retrieve your current date.   
+
+### Commands
+* Commands to extract time information from time based data types:
+  * **`EXTRACT ()`**
+  * **`AGE ()`**
+  * **`TO_CHAR ()`** (formats time information).
+
+* **`EXTRACT ()`** allows you to extract a sub-component of the date value:
+  * YEAR
+  * MONTH
+  * DAY
+  * WEEK
+  * QUARTER
+
+* Example syntax: **`EXTRACT`**(**`YEAR FROM`** date_column)
+* **`AGE ()`** calculates and returns the current age given a timestamp.
+* Example syntax: **`AGE`**(date_column) (returns 13 years 1 mon 5 days 01:34:!3.003423)
