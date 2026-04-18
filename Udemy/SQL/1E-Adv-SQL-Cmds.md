@@ -15,3 +15,4 @@
   * **`TIMEOFDAY`**
   * **`CURRENT_TIME`**
   * **`CURRENT_DATE`**
+* Use the **`SHOW`** command to run these functions and operations (example syntax: **`SHOW TIMEZONE`**).
