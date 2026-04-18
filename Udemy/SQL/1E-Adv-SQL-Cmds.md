@@ -15,4 +15,4 @@
   * **`TIMEOFDAY`**
   * **`CURRENT_TIME`**
   * **`CURRENT_DATE`**
-* Use the **`SHOW`** command to run these functions and operations (example syntax: **`SHOW TIMEZONE`**).
+* Use the **`SHOW`** command to run these functions and operations (example syntax: **`SHOW TIMEZONE`** or **`SHOW NOW()`** or **`SHOW TIMEOFDAY()`**).
