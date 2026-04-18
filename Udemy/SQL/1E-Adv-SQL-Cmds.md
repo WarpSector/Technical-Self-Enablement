@@ -15,4 +15,9 @@
   * **`TIMEOFDAY`**
   * **`CURRENT_TIME`**
   * **`CURRENT_DATE`**
-* Use the **`SHOW`** command to run these functions and operations (example syntax: **`SHOW TIMEZONE`** or **`SHOW NOW()`** or **`SHOW TIMEOFDAY()`**).
+* Use the **`SHOW`** command to run the **`TIMEZONE`** function and operation.
+* Example syntax:
+  * **`SELECT NOW()`** to retrieve your current timestamp.
+  * **`SELECT TIMEOFDAY()`** to retrieve your current timestamp as a string.
+  * **`SELECT CURRENT_TIME`** to retrieve your current time with time zone.
+  * **`SELECT CURRENT_DATE`** to retrieve your current date.   
