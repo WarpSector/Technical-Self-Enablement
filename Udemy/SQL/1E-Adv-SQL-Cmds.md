@@ -38,3 +38,5 @@
 * Example syntax: **`EXTRACT`**(**`YEAR FROM`** date_column)
 * **`AGE ()`** calculates and returns the current age given a timestamp.
 * Example syntax: **`AGE`**(date_column) (returns 13 years 1 mon 5 days 01:34:!3.003423)
+* **`TO_CHAR()`** is a general function used to convert data types into text, which can be useful for timestamp formatting.
+* Usage: **`TO_CHAR`**(date_column, 'mm-dd-yyy').
