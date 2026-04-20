@@ -63,3 +63,10 @@
 * The **`EXISTS`** operator tests for the existence of rows in a sub query.
 * A sub query is passed in the **`EXISTS()`** function to check if any rows are returned with the sub query.
 * Typical syntax: **`SELECT`** column_name **`FROM`** table_name **`WHERE`** **`EXISTS`** (**`SELECT`** column_A **`FROM`** table **`WHERE`** condition);
+
+## Self-Joins
+* A self-join is a query where a table is joined to itself (re: a join of 2 copies of the same table. The table isn't actually copied, but SQL performs the command as though it was).
+* Self-joins are needed when comparing values in a column of rows within the same table.
+* There is no special keyword for self-joins, it's standard **`JOIN`** syntax with the same table in both parts of the syntax.
+* NOTE: when using a self-join, you'll need to use an alias for the table otherwise you'll receive an error when running the query since the tables names would be ambiguous.
+* Example syntax: **`SELECT`** table_A.col, table_B.col **`FROM`** table **`AS`** table_A **`JOIN`** table **`AS`** table_A **`ON`** table_A.some_col = table_B.other_col;
