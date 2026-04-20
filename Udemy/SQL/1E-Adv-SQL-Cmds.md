@@ -42,8 +42,13 @@
 * Usage: **`TO_CHAR`**(date_column, 'mm-dd-yyy').
 
 ## Mathematical Functions and Operators
+* Mathematical Operators example syntax: **`SELECT`** column_A (mathematical operator) column_B **`FROM`** table
+* You would type out the equation based on how the mathematical operator is listed in the documentation.
 * Reference the documentation for these: https://www.postgresql.org/docs/current/functions-math.html
 
 ## String Functions and Operators
+* String Concatenation example syntax: **`SELECT`** column_A | | column_B **`FROM`** table
+* Use || '  ' || to add spaces in between the concatenated strings. 
 * Reference the documentation for these: https://www.postgresql.org/docs/current/functions-string.html
 
+  
