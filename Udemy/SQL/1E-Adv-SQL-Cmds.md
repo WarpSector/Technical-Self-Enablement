@@ -57,6 +57,7 @@
 * We would normally do this in 2 steps: **`SELECT`** **`AVG`**(grade) **`FROM`** test_scores (then write that result down somewhere and then run another query).
 * Instead of doing it in 2 steps, we can use sub queries: **`SELECT`** student, grade **`FROM`** test_scores **`WHERE`** grade > (**`SELECT`** **`AVG`**(grade) **`FROM`** test_scores)
 * The query inside the parenthesis is run first and then the rest of the query is run. That way, the avergae grade is first found and then the query will use that result to run the query to find the students above the average grade.
+* We can also use the **`IN`** operator in conjunction with a sub query to check against multiple results returned. In other words, if your sub query is going to return more than 1 value, you'll need to pair it with an **`IN`** operator.
 
 ### EXISTS
 * The **`EXISTS`** operator tests for the existence of rows in a sub query.
