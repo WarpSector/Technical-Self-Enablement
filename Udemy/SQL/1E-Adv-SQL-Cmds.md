@@ -51,4 +51,9 @@
 * Use || '  ' || to add spaces in between the concatenated strings. 
 * Reference the documentation for these: https://www.postgresql.org/docs/current/functions-string.html
 
-  
+## SUB QUERIES
+* A sub query allows you to construct complex queries where you can perform a query on the results of another query.
+* Example Scenario: How can we get a list of students who scored better than the average grade?
+* We would normally do this in 2 steps: **`SELECT`** **`AVG`**(grade) **`FROM`** test_scores (then write that result down somewhere and then run another query).
+* Instead of doing it in 2 steps, we can use sub queries: **`SELECT`** student, grade **`FROM`** test_scores **`WHERE`** grade > (**`SELECT`** **`AVG`**(grade) **`FROM`** test_scores)
+* The query inside the parenthesis is run first and then the rest of the query is run.
