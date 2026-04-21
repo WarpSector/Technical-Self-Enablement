@@ -58,6 +58,7 @@
 
 ## Creating a Table
 * Full General Syntax for Creating a Table: **`CREATE TABLE`** table_name (column_name **`TYPE`** column_constraint, column_name **`TYPE`** column_constraint, table_constraint table_constraint) **`INHERITS`** existing_table_name;
+* Example Syntax: **`CREATE TABLE`** players(player_id **`SERIAL`** **`PRIMARY KEY`**, age **`SMALLINT`** **`NOT NULL`**);
 
 ### SERIAL
 * **`SERIAL`** command: in PostgreSQL, a sequence is a special kind of DB object that generates a sequence of integers. A sequence is used as the `[PK]` column in a table.
