@@ -32,3 +32,26 @@
 * A (referencing/child) table can have multiple foreign keys depending on its relationships with other tables.
 * Foreign Keys are not identified like Primary Keys are. A column in a table that's not identified as `[PK]` is a Foreign Key in the table, however, that column could be a `[PK]` in a different table.
 * Foreign Keys can be ID'ed in pgAdmin by clicking the table >> constraints >> and seeing which keys are marked as "fkey".
+
+## Constraints
+* Constraints are rules enforced on data columns in a table.
+* These rules (constraints) are used to prevent invalid data from being entered into the database.
+* Constraints ensure the accuracy and reliability of the data in the database.
+* Constraints can be divided into 2 main categories:
+  * Column Constraints (constrains the data in a column to adhere to certain conditions)
+  * Table constraints (constraints applied to the entire table rather than an individual column)
+
+### Common Column Constraints
+* **`NOT NULL`** (ensures that a column value does not have a null value)
+* **`UNIQUE`** Constraint (ensures all values in a column are different)
+* **`PRIMARY KEY`** (uniquely identifies each row/record in a database table)
+* **`FOREIGN KEY`** (constrains data based on columns in other tables)
+* **`CHECK`** Constraint (ensures that all values in a column satisfy certain conditions)
+* **`EXCLUSION`** Constraint (ensure that any two rows are compared on the specified column or expression using the specified operator, not all will return TRUE)
+
+### Common Table Constraints
+* Table Constraints are similar to column constraints.
+* **`CHECK`** (condition): to check a condition when inserting or updating data
+* **`REFERENCES`**: to constrain the value stored in the column that must exist in a column in another table
+* **`UNIQUE`** (column list): forces the values stored in the columns listed inside the parenthesis to be unique
+* **`PRIMARY KEY`** (column list): allows you to define the primary key that consists of multiple columns
