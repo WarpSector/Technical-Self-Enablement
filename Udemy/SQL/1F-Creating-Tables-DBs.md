@@ -55,3 +55,6 @@
 * **`REFERENCES`**: to constrain the value stored in the column that must exist in a column in another table
 * **`UNIQUE`** (column list): forces the values stored in the columns listed inside the parenthesis to be unique
 * **`PRIMARY KEY`** (column list): allows you to define the primary key that consists of multiple columns
+
+## Creating a Table
+* Full General Syntax for Creating a Table: **`CREATE TABLE`** table_name (column_name **`TYPE`** column_constraint, column_name **`TYPE`** column_constraint, table_constraint table_constraint) **`INHERITS`** existing_table_name;
