@@ -31,7 +31,7 @@
 * The table which the Foreign Key references is called: "`Referenced Table`" or "`Parent Table`".
 * A (referencing/child) table can have multiple foreign keys depending on its relationships with other tables.
 * Foreign Keys are not identified like Primary Keys are. A column in a table that's not identified as `[PK]` is a Foreign Key in the table, however, that column could be a `[PK]` in a different table.
-* Foreign Keys can be ID'ed in pgAdmin by clicking the table >> constraints >> and seeing which keys are marked as "fkey".
+* Foreign Keys can be ID'ed in pgAdmin by clicking the table >> constraints >> and seeing which keys are marked as "fkey" (primary keys are marked as golden keys in pgAdmin).
 
 ## Constraints
 * Constraints are rules enforced on data columns in a table.
