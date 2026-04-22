@@ -85,3 +85,5 @@
 * **`DELETE`** removes rows from a table.
 * Example syntax: **`DELETE FROM`** table **`WHERE`** row_id = 1
 * You can also delete matches in two tables: **`DELETE FROM`** TableA **`USING`** TableB **`WHERE`** TableA.id = TableB.id
+* **`DELETE`** all rows from a table: **`DELETE FROM`** table
+* You can use the **`RETURNING`** command to see what was deleted from the table: **`DELETE FROM`** table **`WHERE`** column_name = 'Name' **`RETURNING`** column_name
