@@ -87,3 +87,13 @@
 * You can also delete matches in two tables: **`DELETE FROM`** TableA **`USING`** TableB **`WHERE`** TableA.id = TableB.id
 * **`DELETE`** all rows from a table: **`DELETE FROM`** table
 * You can use the **`RETURNING`** command to see what was deleted from the table: **`DELETE FROM`** table **`WHERE`** column_name = 'Name' **`RETURNING`** column_name
+
+### ALTER
+* **`ALTER`** allows you to change the existing table structure such as:
+  * Adding/Dropping/Renaming columns
+  * Changing a column's Data Type
+  * Set default values for a column
+  * Adding CHECK constraints
+  * Renaming the table
+
+* General Syntax: **`ALTER TABLE`** table_name action **`ADD COLUMN`** new_col TYPE
