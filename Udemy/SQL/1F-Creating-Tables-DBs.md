@@ -71,3 +71,11 @@
 * Syntax for Inserting Values from Another Table: **`INSERT INTO`** table (column1, column2, ...) **`SELECT`** column1, column2, ... **`FROM`** another_table **`WHERE`** condition;
 * Just remember that the inserted row values must match up for the table, including the constraints.
 * **`SERIAL`** columns don't need to be provided a value.
+
+### UPDATE
+* **`UPDATE`** allows you to change the values of the columns in a table.
+* General Syntax: **`UPDATE`** table **`SET`** column1 = value1, column2 = value2, ... **`WHERE`** condition;
+* Example Syntax: **`UPDATE`** account **`SET`** last_login = **`CURRENT_TIMESTAMP`** **`WHERE`** last_login **`IS`** **`NULL`**;
+* You can also reset everything without a **`WHERE`** condition.
+* You can also **`SET`** on another column (ex: **`SET`** last_login (*column*) = created_on (*a different column*)).
+* **"Update Joins"**" You can use another table's values: Ex. **`UPDATE`** TableA **`SET`** original_col = TableB.new_col **`FROM`** TableB **`WHERE`** TableA.id = TableB.id
