@@ -102,3 +102,4 @@
 * Using **`DROP`** in PostgreSQL automatically removes all of the indexes and constraints involving the column.
 * General Syntax: **`ALTER TABLE`** table_name **`DROP COLUMN`** col_name
 * To remove all dependencies from the column: **`ALTER TABLE`** table_name **`DROP COLUMN`** col_name **`CASCADE`**
+* To avoid errors, use **`IF EXISTS`** to check if the column being dropped exists first before trying to execute the DROP command: **`ALTER TABLE`** table_name **`DROP COLUMN`** **`IF EXISTS`** col_name
