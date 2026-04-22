@@ -98,5 +98,5 @@
 * General Syntax: **`ALTER TABLE`** table_name action **`ADD COLUMN`** new_col TYPE
 
 ### DROP
-* **`DROP`** allows you to completely remove a column in a table (provided that column is not used in any other table for views, triggers, or stored procedures).
+* **`DROP`** allows you to completely remove a column in a table (provided that column is not used in any other table for views, triggers, or stored procedures - to do that, you can use a **`CASCADE`** clause).
 * Using **`DROP`** in PostgreSQL automatically removes all of the indexes and constraints involving the column.
