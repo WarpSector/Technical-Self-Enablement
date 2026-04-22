@@ -95,5 +95,8 @@
   * Set default values for a column
   * Adding CHECK constraints
   * Renaming the table
-
 * General Syntax: **`ALTER TABLE`** table_name action **`ADD COLUMN`** new_col TYPE
+
+### DROP
+* **`DROP`** allows you to completely remove a column in a table (provided that column is not used in any other table for views, triggers, or stored procedures).
+* Using **`DROP`** in PostgreSQL automatically removes all of the indexes and constraints involving the column.
