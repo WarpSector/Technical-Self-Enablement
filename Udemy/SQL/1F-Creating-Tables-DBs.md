@@ -103,3 +103,7 @@
 * General Syntax: **`ALTER TABLE`** table_name **`DROP COLUMN`** col_name
 * To remove all dependencies from the column: **`ALTER TABLE`** table_name **`DROP COLUMN`** col_name **`CASCADE`**
 * To avoid errors, use **`IF EXISTS`** to check if the column being dropped exists first before trying to execute the DROP command: **`ALTER TABLE`** table_name **`DROP COLUMN`** **`IF EXISTS`** col_name
+
+### CHECK
+* The **`CHECK`** constraint allows you to create customized constrains that adhere to a specific condition (ex: making sure all inserted integer values fall below a certain threshold).
+* General Syntax: **`CREATE TABLE`** example (ex_id **`SERIAL`** **`PRIMARY KEY`**, age **`SMALLINT`** **`CHECK`** (age > 21), parent_age **`SMALLINT`** **`CHECK`** (parent_age > age));
