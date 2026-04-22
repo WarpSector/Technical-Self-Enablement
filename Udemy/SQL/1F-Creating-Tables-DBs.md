@@ -80,3 +80,8 @@
 * You can also **`SET`** on another column (ex: **`SET`** last_login (*column*) = created_on (*a different column*)).
 * **"Update Joins"**" You can use another table's values: Ex. **`UPDATE`** TableA **`SET`** original_col = TableB.new_col **`FROM`** TableB **`WHERE`** TableA.id = TableB.id
 * You can return just the affected rows: **`UPDATE`** account **`SET`** last_login = created_on **`RETURNING`** account_id, last_login
+
+### DELETE
+* **`DELETE`** removes rows from a table.
+* Example syntax: **`DELETE FROM`** table **`WHERE`** row_id = 1
+* You can also delete matches in two tables: **`DELETE FROM`** TableA **`USING`** TableB **`WHERE`** TableA.id = TableB.id
