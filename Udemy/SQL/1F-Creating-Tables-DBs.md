@@ -79,3 +79,4 @@
 * You can also reset everything without a **`WHERE`** condition.
 * You can also **`SET`** on another column (ex: **`SET`** last_login (*column*) = created_on (*a different column*)).
 * **"Update Joins"**" You can use another table's values: Ex. **`UPDATE`** TableA **`SET`** original_col = TableB.new_col **`FROM`** TableB **`WHERE`** TableA.id = TableB.id
+* You can return just the affected rows: **`UPDATE`** account **`SET`** last_login = created_on **`RETURNING`** account_id, last_login
