@@ -12,6 +12,9 @@
 <br><br/>
 <div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/7153e973-73d1-4e12-8356-bd44c58dbd94" /></div>
 <br><br/>
+<br><br/>
+<div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/3f9d2126-9754-4a4f-a19a-4cbde42a1b3c" /></div>
+<br><br/>
 
 ### Simple Example for **`CASE`** Expression:
 * **`CASE`** expression syntax first evaluates an expression then compares the result with each value in the **`WHEN`** clauses sequentially.
