@@ -40,3 +40,8 @@
 <br><br/>
 <div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/b715f5eb-fea9-4a16-9647-e284a2740ea9" /></div>
 <br><br/>
+
+## NULLIF
+* **`NULLIF`** takes 2 inputs and returns NULL if both inputs are equal.
+* If both inputs are not equal, it returns the first argument passed.
+* Example syntax: **`NULLIF`** (10,10) - this returns NULL.
