@@ -45,3 +45,4 @@
 * **`NULLIF`** takes 2 inputs and returns NULL if both inputs are equal.
 * If both inputs are not equal, it returns the first argument passed.
 * Example syntax: **`NULLIF`** (10,10) - this returns NULL.
+* This function is useful in cases where a NULL value would cause an error or unwanted result.
