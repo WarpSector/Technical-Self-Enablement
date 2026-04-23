@@ -31,3 +31,12 @@
 * Example syntax: **`SELECT COALESCE`** (1,2) returns 1 as the first NOT null argument.
 * Example syntax: **`SELECT COALESCE`** (NULL, 2,3) returns 2 as the first NOT null argument.
 * **`COALESCE`** becomes useful when querying a table that contains null values and you want to replace the null value with another value.
+
+## CAST
+* **`CAST`** lets you convert from one data type into another.
+* Not every instance of a data type can be CAST to another data type - it has to be reasonable. For example, '5' to an integer will work while 'five' to an integer will not.
+
+### CAST Function Calls
+<br><br/>
+<div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/b715f5eb-fea9-4a16-9647-e284a2740ea9" /></div>
+<br><br/>
