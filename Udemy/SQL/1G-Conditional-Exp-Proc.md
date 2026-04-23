@@ -25,3 +25,9 @@
 <div align="center"><img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/961c8d25-c8ac-4336-b5e1-38a816c33d43" /></div>
 <br><br/>
 
+## COALESCE
+* **`COALESCE`** accepts an unlimited number of arguments and returns the first argument that is NOT null.
+* If all arguments are null, then the **`COALESCE`** function returns null.
+* Example syntax: **`SELECT COALESCE`** (1,2) returns 1 as the first NOT null argument.
+* Example syntax: **`SELECT COALESCE`** (NULL, 2,3) returns 2 as the first NOT null argument.
+* **`COALESCE`** becomes useful when querying a table that contains null values and you want to replace the null value with another value.
